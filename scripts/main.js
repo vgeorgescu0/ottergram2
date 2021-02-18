@@ -54,7 +54,6 @@ function addNextClickHandler(thumbnails) {
                 break;
             }
         }
-        console.log(index);
         if (index + 1 >= thumbnails.length){
             setDetailsFromThumb(thumbnails[0]);
         }
@@ -78,7 +77,6 @@ function addPreviousClickHandler(thumbnails) {
                 break;
             }
         }
-        console.log(index);
         if (index - 1 < 0){
             setDetailsFromThumb(thumbnails[thumbnails.length - 1]);
         }
